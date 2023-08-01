@@ -1,6 +1,6 @@
 import "../style/Style.css";
 
-function Style() {
+function Style({web}) {
   return (
     <>
       <div className="d">React</div>;
@@ -9,8 +9,10 @@ function Style() {
           backgroundColor: "red",
         }}
       >
+        <p>{web}</p>
         react
       </div>
+      
     </>
   );
 }
